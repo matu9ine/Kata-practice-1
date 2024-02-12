@@ -653,7 +653,7 @@ body {
   width: 24px;
   height: 24px;
   border: none;
-  background-image: url("img/svg/expand.svg");
+  background-image: url("../img/svg/expand.svg");
     background-repeat: no-repeat;
     background-position: 50%;;
   background-color: #f8f8f8;
