@@ -4,50 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="img/logo.svg"/>
+    <link rel="icon" href="img/logo.svg" />
     <title>CPS-Услуги и сервисы</title>
   </head>
   <body>
-    <header class="upperMenu">
-      <div class="container">
-        <div class="upperMenu__inner">
-          <div class="logo">
-            <div class="logo__item">
-              <a href="#">
-                <img src="img/logo.png" alt="" />
-              </a>
-            </div>
-            <div class="stick"></div>
-          </div>
-          <nav class="menu">
-            <button class="menu__icon__burger"></button>
-            <button class="menu__icon__repair"></button>
-            <button class="menu__icon__checkstatus"></button>
-            <button class="menu__icon__call"></button>
-            <button class="menu__icon__chat"></button>
-            <button class="menu__icon__profile"></button>
-          </nav>
+    <header>
+      <div class="header__inner">
+        <div class="header__navigation">
+          <button class="navigation__button">
+            <span class="button__icon-burger"></span>
+          </button>
+          <img src="/img/logo.png" alt="logo">
         </div>
-      </div> 
+        <div class="stick"></div>
+        <nav class="header__menu">
+          <button class="menu__button">
+            <span class="button__icon-call"></span>
+          </button>
+          <button class="menu__button">
+            <span class="button__icon-chat"></span>
+          </button>
+          <button class="menu__button">
+            <span class="button__icon-people"></span>
+          </button>
+          <div class="stick-two"></div>
+          <button class="menu__button">
+            <span class="button__icon-repair"></span>
+          </button>
+          <button class="menu__button">
+            <span class="button__icon-checkstatus"></span>
+          </button>
+        </nav>
+      </div>
     </header>
     <main>
       <div class="first__block">
         <div class="first__block__inner">
           <div class="first__title-block">
             <h1 class="first__title">Услуги и сервисы</h1>
-            <button class="menu__icon__repair-title">
-              <span class="application__title">Оставить заявку</span>
-            </button>
-            <button class="menu__icon__checkstatus-title">
-              <span class="status__title">Статус ремонта</span>
-            </button>
+            <div class="first__title-items">
+              <p class="first__title-txt">Оставить заявку</p>
+              <button class="menu__button">
+                <span class="button__icon-repair"></span>
+              </button>
+              <p class="first__title-txt">Статус ремонта</p>
+              <button class="menu__button">
+                <span class="button__icon-checkstatus"></span>
+              </button>
+            </div>
           </div>
           <div class="sliderMenu">
-            <div class="slider__item">Ремонтируемые бренды</div>
-            <div class="slider__item">Ремонтируемые устройства</div>
-            <div class="slider__item">Цены на услуги</div>
-            <div class="slider__item">Адреса сервисных центров</div>
-            <div class="slider__item">Специальные цены</div>
+            <p class="slider__item">Ремонтируемые бренды</p>
+            <p class="slider__item">Ремонтируемые устройства</p>
+            <p class="slider__item">Цены на услуги</p>
+            <p class="slider__item">Адреса сервисных центров</p>
+            <p class="slider__item">Специальные цены</p>
           </div>
           <div class="first__post">
             <p class="recall__post">Отзывы</p>
@@ -67,10 +78,9 @@
               </span>
             </p>
             <div class="read__more">
-                <button class="icon__expand"></button>
-                <p class="read__more-txt">Читать далее</p>
+                <button class="read__more-button">Читать далее</button>
             </div>
-              <img class="img__inner-item" src="img/MG_3223.jpeg" alt="content">
+              <img class="img__inner-item" src="./img/MG_3223.jpeg" alt="content">
           </div>
         </div>
       </div>
