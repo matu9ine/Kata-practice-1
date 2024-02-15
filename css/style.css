@@ -134,7 +134,7 @@ body {
   transform: translate(-50%, -50%); 
   width: 20px; 
   height: 20px;
-  background-image: url('/img/svg/call.svg');
+  background-image: url('../img/svg/call.svg');
   background-size: cover;
 }
 .button__icon-chat{
@@ -144,7 +144,7 @@ body {
   transform: translate(-50%, -50%); 
   width: 20px; 
   height: 20px;
-  background-image: url('/img/svg/chat.svg');
+  background-image: url('../img/svg/chat.svg');
   background-size: cover;
 }
 .button__icon-people{
@@ -154,7 +154,7 @@ body {
   transform: translate(-50%, -50%); 
   width: 20px; 
   height: 20px;
-  background-image: url('/img/svg/people.svg');
+  background-image: url('../img/svg/people.svg');
   background-size: cover;
 }
 .button__icon-repair{
@@ -164,7 +164,7 @@ body {
   transform: translate(-50%, -50%); 
   width: 20px; 
   height: 20px;
-  background-image: url('/img/svg/repair.svg');
+  background-image: url('../img/svg/repair.svg');
   background-size: cover;
 }
 .button__icon-checkstatus{
@@ -174,7 +174,7 @@ body {
   transform: translate(-50%, -50%); 
   width: 20px; 
   height: 20px;
-  background-image: url('/img/svg/checkstatus.svg');
+  background-image: url('../img/svg/checkstatus.svg');
   background-size: cover;
 }
 
