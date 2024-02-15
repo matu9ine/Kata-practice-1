@@ -98,7 +98,7 @@ body {
   transform: translate(-50%, -50%); 
   width: 20px; 
   height: 20px;
-  background-image: url('/img/svg/humburger.svg');
+  background-image: url('../img/svg/humburger.svg');
   background-size: cover;
 }
 
